@@ -56,8 +56,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "craco  start",
-    "build": "GENERATE_SOURCEMAP=false craco build -- --profile",
+    "start": "craco start",
+    "build": "craco build -- --profile",
     "test": "craco test",
     "eject": "react-scripts eject",
     "build:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && GENERATE_SOURCEMAP=false craco build -- --profile",
